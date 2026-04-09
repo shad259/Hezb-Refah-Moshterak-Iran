@@ -167,7 +167,7 @@
         </div>
     </div>
 </section>
-<div id="long-text-container">
+<div id="content.txt">
     درحال بارگذاری متن...
 </div>
   <div class="modal fade" id="m1" tabindex="-1">
@@ -336,7 +336,7 @@
     fetch('text-data.html')
     .then(response => response.text())
     .then(data => {
-        document.getElementById('long-text-container').innerHTML = data;
+        document.getElementById('content.txt').innerHTML = data;
     });
 </script>
 </body>
